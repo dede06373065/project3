@@ -1,0 +1,159 @@
+.Header {
+    height: 202px;
+    background-color: rgb(24, 28, 77);
+    color: white;
+}
+.Header--content {
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.Header--logo {
+    width: 180px;
+    height: 202px;
+    background-image: url(../asset/猫头鹰.png);
+    margin: 0 0 0 0;
+}
+.Header--title {
+    width: 613px;
+    height: 26px;
+    margin: 98px 5px 32px 83px;
+    font-family: Baloo;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.72;
+    letter-spacing: 0.46px;
+    text-align: left;
+    color: #ffffff;
+}
+.booking--link {
+    width: 200px;
+    height: 26px;
+    flex-grow: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: 0.46px;
+    text-align: right;
+    color: #ffffff;
+    position:absolute;
+    bottom:10px;
+    right:100px;
+    background-color:rgb(24, 28, 77);
+}
+.booking--link:hover{
+    cursor: pointer;
+    color:#ff2e2e;
+}
+.Main {
+    background-image: url(https://www.japanesebathhouse.com.au/wp-content/uploads/2020/02/IMG_0327-scaled.jpg);
+    height: 1047px;
+    display: flex;
+    justify-content: center;
+}
+.Main--calendar {
+    margin-top: 79px;
+    margin-bottom: 78px;
+    width: 900px;
+    height: 880px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.Main--calender--title {
+    width: 340px;
+    height: 57px;
+    margin:0 auto;
+    margin-top:61px;
+    font-family: Baloo;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #171a4f;
+}
+
+.condition{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+}
+.condition li{
+    width:120px;
+    height:21px;
+    line-height: 21px;
+}
+.con{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin-right:5px;
+}
+.green{
+    background-color: #bcff2e;
+}
+.orange{
+    background-color: #ffab2e;
+}
+.red{
+    background-color: #ff2e2e;
+}
+.gray{
+    background-color: #818181;
+}
+.Main--calender--content{
+    width: 635px;
+    height:630px;
+    background-color: #ffab2e;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.Footer {
+    height: 150px;
+    padding: 49px 489px 76px 130px;
+    background-color: rgb(24, 28, 77);
+    color: white;
+}
+.Footer--title {
+    width: 164px;
+    height: 38px;
+    margin: 0 657px 0 0;
+    font-family: Baloo;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.Footer--content {
+    width: 1000px;
+    height: 83px;
+    margin: 18px 0 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.date{
+    display: inline;
+    width:200px;
+    margin-right:10px;
+}
